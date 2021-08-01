@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - litegraph.js based CircleCI Config Creator</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <html>
+
+    <head>
+        <title>SECTIONS</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" type="text/css" href="./node_modules/litegraph.js/css/litegraph.css">
+        <script type="text/javascript" src="./node_modules/litegraph.js/build/litegraph.js"></script>
+    </head>
+
+    <body>
+        <h1>SECTIONS</h1>
+        <div class="controls">
+            <button onclick="create_section()">Section</button>
+            <button onclick="process()">Generate</button>
+
+        </div>
+        <div class="app">
+            <canvas height=500 width=1000 id="mycanvas"></canvas>
+        </div>
+    </body>
+
+    </html>
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
